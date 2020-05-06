@@ -2,11 +2,6 @@
   port: 8090
 
 
-#需要使用的配置文件
-spring:
-  profiles:
-    active: test
----
 #生产的环境
 server:
   port: 8881
