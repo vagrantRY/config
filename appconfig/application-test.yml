@@ -1,0 +1,20 @@
+﻿
+server:
+  port: 8080
+
+data:
+  env: config-single-client
+  user:
+    username: config-client-user
+    password: 1291029102
+    
+spring:
+  application:
+    name: jf-exp-service
+  datasource:
+    url: jdbc:mysql://47.107.228.216:3306/jf_system?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    hikari: 
+      maximum-pool-size: 20
+      minimum-idle: 10
