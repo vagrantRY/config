@@ -9,6 +9,7 @@ data:
     password: 1291029102
     
 spring:
+  profiles: test
   application:
     name: jf-exp-service
   datasource:
