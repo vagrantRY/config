@@ -1,5 +1,5 @@
 ﻿server:
-  port: 8092
+  port: 8093
 spring:
   application:
     name: jf-exp-service
